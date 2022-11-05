@@ -9,15 +9,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <!-- start nav -->
-        <nav class="nav">
-            <div>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
+    <!-- <header class="nav">
+         start nav
+        <nav class=" container">
+                <div class="res">
                     <i class="fa-solid fa-bars"></i>
-                </label>
-                <ul class="list">
+                    <div class="logo-res">
+                        <img src="./Assets/Logo.png" alt="">
+                    </div>
+                </div>
+                <ul class="list" id="list">
                     <li class="item logo">
                         <img src="./Assets/Logo.png" alt="logo">
                     </li>
@@ -27,12 +28,31 @@
                     <li class="item"><a href="#">الادوات</a></li>
                     <li class="item"><a href="#">الوظائف</a></li>
                 </ul>
-            </div>
-            <button class="btn-login">الدخول</button>
+            <a href="#" class="btn-login">الدخول</a>
         </nav>
-        <!-- end nav -->
-    </div>
-    <header class="header">
+         end nav 
+    </header> -->
+    <header class="main-nav">
+        <nav class="navbar container">
+            <i class="fa-solid fa-bars" id="check"></i>
+            <ul class="list" id="list">
+                <li class="item logo">
+                    <a href="#"><img src="./Assets/Logo.png" alt="logo"></a>
+                </li>
+                <li class="item"><a href="#">الدورات</a></li>
+                <li class="item"><a href="#">المجتمع</a></li>
+                <li class="item"><a href="#">المدونه</a></li>
+                <li class="item"><a href="#">الادوات</a></li>
+                <li class="item"><a href="#">الوظائف</a></li>
+            </ul>
+            <a href="#" class="btn-login">الدخول</a>
+            <a href="#" class="brand">
+                <img src="./Assets/Logo.png" alt="logo">
+            </a>
+
+        </nav>
+    </header>
+    <section class="header">
         <div class="container">
             <h1 class="title">تبحث عن وظيفه ام تبحث عن موظف؟</h1>
             <p class="desc">باندفاى يساعدك فى الحصول على مبنغاك</p>
@@ -41,8 +61,8 @@
                 <button class="client">احتاج موظف</button>
             </div>
         </div>
-    </header>
-    <div class="container">
+    </section>
+    <main class="container">
         <section class="user-data">
             <div class="section-title">التصميم وتعديل الفيديوهات</div>
             <div class="cards">
@@ -269,6 +289,7 @@
                 </div>
             </div>
         </section>
-    </div>
+    </main>
+    <script src="./main.js"></script>
 </body>
 </html>
